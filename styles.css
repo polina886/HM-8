@@ -1,0 +1,35 @@
+h3:first-of-type { 
+    color: pink; 
+} 
+#greycol { 
+    color: grey; 
+} 
+div > div p { 
+    color: red; 
+} 
+.text-box > p:nth-of-type(3) { 
+    color: green; 
+} 
+p.yellow { 
+    color: yellow; 
+}
+h3:not(:first-of-type) { 
+    font-weight: normal; 
+    color: inherit;
+}
+ul li:first-child {
+    font-weight: bold;
+}
+ul li:last-child {
+    font-style: italic;
+}
+ul {
+    border:solid black;
+}
+ul li:nth-of-type(2) {
+    text-decoration: underline;
+}
+ul:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
